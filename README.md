@@ -16,9 +16,9 @@
     <br />
     <a href="https://github.com/SindreYang/ProjectTemplate/releases">下载Releases</a>
     ·
-    <a href="https://github.com/shaojintian/Best_README_template/issues">报告Bug</a>
+    <a href="https://github.com/SindreYang/ProjectTemplate/issues">报告Bug</a>
     ·
-    <a href="https://github.com/shaojintian/Best_README_template/issues">提出新特性</a>
+    <a href="https://github.com/SindreYang/ProjectTemplate/issues">提出新特性</a>
   </p>
 </div>
 
