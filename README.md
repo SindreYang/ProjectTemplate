@@ -7,67 +7,72 @@
 [![Conference](http://img.shields.io/badge/NeurIPS-2022-4b44ce.svg)](https://papers.nips.cc/book/advances-in-neural-information-processing-systems-31-2018)
 [![Conference](http://img.shields.io/badge/ICLR-2022-4b44ce.svg)](https://papers.nips.cc/book/advances-in-neural-information-processing-systems-31-2018)
 [![Conference](http://img.shields.io/badge/AnyConference-year-4b44ce.svg)](https://papers.nips.cc/book/advances-in-neural-information-processing-systems-31-2018)
-<!--ARXIV[![Paper](http://img.shields.io/badge/arxiv-math.co:1480.1111-B31B1B.svg)](https://www.nature.com/articles/nature14539)-->
 
+<!--ARXIV[![Paper](http://img.shields.io/badge/arxiv-math.co:1480.1111-B31B1B.svg)](https://www.nature.com/articles/nature14539)-->
+<p align="center">
+    <br />
+    <a href="https://sindreyang.github.io/ProjectTemplate/"><strong><<  项目的文档 >></strong></a>
+    <br />
+    <br />
+    <a href="https://github.com/SindreYang/ProjectTemplate/releases">下载Releases</a>
+    ·
+    <a href="https://github.com/shaojintian/Best_README_template/issues">报告Bug</a>
+    ·
+    <a href="https://github.com/shaojintian/Best_README_template/issues">提出新特性</a>
+  </p>
 </div>
 
+### 配置要求
 
-**<font color='red'>注意：预计最低需要3.7G显存,支持conda一键配置，否则可能需要安装cuda环境</font>**
+1. xxxxx x.x.x
+2. xxxxx x.x.x
 
-第一步，安装依赖
+
+### 安装步骤
+
+###### 安装依赖
 
 ```bash
 # 克隆项目   
-git clone https://github.com/SindreYang/MeshSegNet_GPU.git
-cd MeshSegNet_GPU
-
+git clone https://github.com/SindreYang/ProjectTemplate.git
 # 安装依赖   
-conda env create -f meshsegnet.yaml
+pip install -r requirements.txt
  ```   
 
-数据处理
+###### xxxx
 
-- 会将data/user_dataset/source数据与data/user_dataset/target数据进行特征处理，并输出到data/torch_dataset作为训练集
-
-```bash
-cd src/utils/
-python data_process_meshsegnet.py
-```
-
-开始训练（默认只训练上颌，如果需要修改可以在train_meshesegnet.py的config类修改配置）
 
 ```bash
-python train_meshesegnet.py 
+xxx
+xxxx
 ```
 
-测试输出
+###### xxxx
 
 ```bash
-python test_meshesegnet.py 
+xxx
 ```
 
-目录结构
+###### xxxx
 
-```
-├─data
-│  ├─torch_dataset      #pytorch训练集
-│  │  ├─lower
-│  │  └─upper
-│  └─user_dataset       #用户数据
-│      ├─source         #ply网格数据
-│      ├─target         #手工标签数据
-│      └─test           #测试制作数据是否符合标准
-├─out
-│  └─summary            #tensorboard目录
-└─src
-    ├─datamodules       #torch数据加载器
-    │  
-    ├─models            #网络结构
-    │  
-    └─utils             #数据处理工具集
+```bash
+xxxx
 ```
 
-引文
+### 目录结构
+
+```
+├─.github                   # github的actions工作流脚本
+├── docs                    # mkdocs文档目录
+├── mkdocs.yml              # mkdocs 配置
+├── README.md               # 项目文档
+├── requirements.txt        # 项目依赖
+├── setup.py                # 发布脚本
+└── src                     # 项目代码
+
+```
+
+### 引文
 
 ```
  @title={ProjectTemplate},
