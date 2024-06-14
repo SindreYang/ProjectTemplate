@@ -31,6 +31,8 @@ plugins:
       handlers:
         python:
           paths: [ src ]
+        options:
+          show_source: false
   - search:
       lang:
         - en
